@@ -10,3 +10,5 @@ services:
             - MYSQL_USER=rooti
             - MYSQL_PASSWORD=root
             - MYSQL_ROOT_PASSWORD=root
+        volumes: 
+            - '/bitnami/mariadb/:/var/lib/mysql'
